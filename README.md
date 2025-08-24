@@ -1,2 +1,29 @@
-# Logistics-Optimization-RL
-Reinforcement learning approaches for vehicle routing and logistics optimization.
+# 강화학습 기반 차량경로문제 최적화 (VRP)
+
+이 저장소는 차량경로문제(Vehicle Routing Problem, VRP)를 대상으로 강화학습 기법을 적용하여 물류 경로 최적화를 수행한 논문 연구 프로젝트의 코드입니다.  
+전체 프로젝트의 설계와 방법론 기획을 포함하며, 이 저장소에는 강화학습(PPO) 기반 최적화 구현을 중심으로 정리되어 있습니다.
+
+---
+
+## 연구 개요
+- **문제 정의**: VRP(Vehicle Routing Problem)는 여러 고객의 수요를 충족시키면서 차량 운행 비용(거리, 시간 등)을 최소화하는 경로를 찾는 문제.  
+- **연구 목표**: 기존 전통적 최적화 접근을 넘어, 강화학습 기반 접근을 통해 동적·확장 가능한 해법을 탐구.  
+- **접근 방법**: 정책 기반 강화학습(Proximal Policy Optimization, PPO)을 적용하여 경로 선택 정책을 학습하고 성능을 평가.  
+
+---
+
+## 방법론
+- 강화학습 환경 정의: 상태(State), 행동(Action), 보상 함수(Reward) 설계  
+- PPO(Policy Proximal Optimization) 알고리즘 기반 정책 학습  
+- 무작위(Random) 정책과의 성능 비교를 통한 검증  
+
+---
+
+## 역할 (Roles)
+- **전체 프로젝트 설계**: 문제 정의, 연구 방법론 구상, 실험 구조 설계  
+- **강화학습 구현**: PPO 기반 에이전트 및 학습 코드 작성  
+- **논문 집필 기여**: 연구 결과 정리 및 문서화  
+
+---
+
+## 저장소 구조
